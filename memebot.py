@@ -52,10 +52,5 @@ async def before_memes():
     channel = client.get_channel(CHANNEL_ID)
     await channel.send('Meme bot ready')
 
-
-# async def send_message():
-#     channel = client.get_channel(CHANNEL_ID)
-#     await channel.send('Test message')
-
 send_memes.start()
 client.run(DISCORD_CLIENT_ID)
