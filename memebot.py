@@ -10,7 +10,7 @@ SUBREDDIT = 'dankmemes'
 START_TIME = datetime.timedelta(hours=10)
 INTERVAL = datetime.timedelta(hours=2).total_seconds()
 
-CHANNEL_ID = os.environ.get('MY_PRIV_CHANNEL_ID')
+CHANNEL_ID = int(os.environ.get('MY_PRIV_CHANNEL_ID'))
 DISCORD_CLIENT_ID = os.environ.get('DISCORD_CLIENT_ID')
 REDDIT_UNM = os.environ.get('REDDIT_UNM')
 REDDIT_PWD = os.environ.get('REDDIT_PWD')
